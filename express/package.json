@@ -1,26 +1,23 @@
 {
-  "name": "project_on_express",
+  "name": "nodejs-complete-guide",
   "version": "1.0.0",
-  "description": "express js fram work",
+  "description": "Complete Node.js Guide",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node app.js"
+    "start": "nodemon app.js",
+    "start-server": "node app.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Jiteshgavel/node-udemy.git"
-  },
-  "author": "jitesh gavel",
+  "author": "Maximilian Schwarzmüller",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Jiteshgavel/node-udemy/issues"
+  "devDependencies": {
+    "nodemon": "^1.18.3"
   },
-  "homepage": "https://github.com/Jiteshgavel/node-udemy#readme",
   "dependencies": {
-    "ejs": "^3.1.8",
-    "express": "^4.18.1",
-    "express-handlebars": "^6.0.6",
-    "pug": "^3.0.2"
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-handlebars": "^3.0.0",
+    "pug": "^2.0.3"
   }
 }
